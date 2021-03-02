@@ -26,6 +26,6 @@ public class MenuNavigation : MonoBehaviour {
 
 	public void SourceCode()
 	{
-		Application.OpenURL("https://github.com/ShayLo12/PacMan");
+		Application.OpenURL("https://github.com/Yurrushia/HallwayWithGuard");
 	}
 }
