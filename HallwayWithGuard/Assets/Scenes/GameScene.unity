@@ -3863,12 +3863,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: d8f7c24c834e12c44b119f10c5a0a250,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -31.504
+      value: -31.51
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d8f7c24c834e12c44b119f10c5a0a250,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.844
+      value: 2.795
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d8f7c24c834e12c44b119f10c5a0a250,
         type: 3}
@@ -10455,8 +10455,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28209e3ae6067364d92449f5970e9608, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkingSpeed: 5
-  runningSpeed: 7.5
+  walkingSpeed: 2.5
+  runningSpeed: 5
   jumpSpeed: 5
   gravity: 30
   playerCamera: {fileID: 963194227}
@@ -10492,7 +10492,7 @@ Transform:
   m_GameObject: {fileID: 466883904}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 6.1361, y: 1.3158, z: 0.0086746}
-  m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_Children:
   - {fileID: 482433551}
   - {fileID: 963194228}
@@ -14735,13 +14735,13 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.0052583115
-  m_Speed: 3.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
+  m_AutoBraking: 0
   m_AutoRepath: 1
   m_Height: 0.009071049
   m_BaseOffset: 0.0045355246
